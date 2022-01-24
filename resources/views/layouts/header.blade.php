@@ -10,6 +10,9 @@
             <li class="@if(request()->is('about')) active @endif">
                 <a href="/about">關於我們</a>
             </li>
+            <li class="@if(request()->is('posts')) active @endif">
+                <a href="/posts">查看文章</a>
+            </li>
             <li class="@if(request()->is('contact')) active @endif">
                 <a href="/contact">聯絡我們</a>
             </li>

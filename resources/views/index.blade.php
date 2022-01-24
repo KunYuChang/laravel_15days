@@ -1,7 +1,7 @@
 @extends('layouts.app');
 
 @section('hero')
-<h1>這是一個大大的hero區域</h1>
+<h1>首頁:這是一個大大的hero區域</h1>
 @endsection
 
 

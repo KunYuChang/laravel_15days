@@ -26,3 +26,11 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/posts', function () {
+    return view('posts.list');
+});
+
+Route::get('/posts/{id}', function () {
+    return view('posts.show');
+});
