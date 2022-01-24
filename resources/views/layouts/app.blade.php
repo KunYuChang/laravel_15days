@@ -6,10 +6,11 @@
 </head>
 
 <body>
-    @include('layouts.header')
+    @include('layouts.header', ['red' => (isset($red) ? $red : null)])
 
 
     @yield('hero')
+    @yield('page-title')
 
     <section class="body-content">
         @yield('content')
