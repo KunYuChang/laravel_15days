@@ -6,7 +6,9 @@
 </head>
 
 <body>
-    @include('layouts.header', ['red' => (isset($red) ? $red : null)])
+    @include('layouts.header', [
+    'red' => (isset($red) ? $red : null),
+    ])
 
 
     @yield('hero')

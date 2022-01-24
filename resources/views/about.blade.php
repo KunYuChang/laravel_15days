@@ -3,11 +3,7 @@
 
 @section('page-title')
 <section class="page-title">
-    <ul>
-        <li><a href="#">首頁</a></li>
-        <li><a href="#">關於我們</a></li>
-        <li class="active"><a href="#">聯絡我們</a></li>
-    </ul>
+    <h2>你好你好，在下張玉安</h2>
 </section>
 @endsection
 
