@@ -12,10 +12,13 @@
 @endsection
 
 @section('content')
-<div class="page-content">
-    <h2>這裡是Blog頁面</h2>
+<div class="page-content">    
     <div>
-        <a href="/posts/9487">查看此篇文章</a>
+        <h2>這裡是Blog頁面</h2>
+        {{-- 用loop的方式做出畫面 --}}
+        @foreach ($posts as $key => $post )            
+            第{{$key+1}}篇文章 : <a href="/posts/9487">點此查看</a><br>
+        @endforeach
     </div>
     <div>側邊攔</div>
 </div>
